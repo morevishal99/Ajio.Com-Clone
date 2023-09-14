@@ -15,14 +15,6 @@ Deployed Link : https://frontend-ivory-tau.vercel.app/
 - Express Js
 
 
-### * Team-Members
-
-- Shashank Bijapur
-- Shagun Sharma
-- Shreyash Birajdar
-- Vishal More
-- Supriya Sahoo
-
 You can access the  website by the deployed url 
 
   - For new user you need to register 
