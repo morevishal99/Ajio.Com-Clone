@@ -26,19 +26,20 @@ You can access the  website by the deployed URL
 ## Some Screenshots of our Project:-
 
 ### * Home Page 
-
-![Screenshot (1286)](https://user-images.githubusercontent.com/107456969/233445204-97ba0e23-7669-427c-abaf-7de005534d84.png)
+![Screenshot (1455)](https://github.com/morevishal99/Ajio.Com-Clone/assets/107456969/6f77328f-a0e0-4a0a-9020-4f29cd651120)
 
 ### * Women's page
-![Screenshot (1279)](https://user-images.githubusercontent.com/107456969/233443657-01dac46e-b899-4c82-a8e8-d5d0afb8c663.png)
+![Screenshot (1456)](https://github.com/morevishal99/Ajio.Com-Clone/assets/107456969/bc9172d0-2503-4f46-9ebb-a60a0838595b)
 
 ### * Product detail page
-
-![Screenshot (1280)](https://user-images.githubusercontent.com/107456969/233443947-ee82b227-3a55-4230-a764-91ce5844ffa4.png)
+![Screenshot (1457)](https://github.com/morevishal99/Ajio.Com-Clone/assets/107456969/b0fbee11-d213-41f1-8f5f-065ee7b0ad7d)
 
 ### * Cart page
-![Screenshot (1288)](https://user-images.githubusercontent.com/107456969/233445498-3377522e-b15d-4777-a22c-e26d7e364b74.png)
+![Screenshot (1459)](https://github.com/morevishal99/Ajio.Com-Clone/assets/107456969/8e548859-fe59-40c8-856f-dfa9369c316e)
 
+### * Address page
+![Screenshot (1460)](https://github.com/morevishal99/Ajio.Com-Clone/assets/107456969/0e55c85a-b102-4f47-9325-f3dd79470d64)
 
+### * Payment page
 
-
+![Screenshot (1461)](https://github.com/morevishal99/Ajio.Com-Clone/assets/107456969/a0793b40-1edf-472c-9dfb-132691529e45)
