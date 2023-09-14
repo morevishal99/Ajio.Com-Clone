@@ -51,6 +51,7 @@ const WomenSideBar = () => {
     } else {
       setCategory(value);
       dispatch(setCategoryValue(value));
+      dispatch(setBrand(""));
       dispatch(setCurrentPage(1));
     }
   };
@@ -238,30 +239,182 @@ const WomenSideBar = () => {
             </h2>
             <AccordionPanel pb={4}>
               <Stack spacing={5} direction="column">
-                {[
-                  "View all",
-                  "DJ & C",
-                  "FIG",
-                  "DNMX",
-                  "KORAM'S DESIGN",
-                  "Teamspirit",
-                  "Wedani",
-                ].map((category, index) => (
-                  <Checkbox
-                    borderRadius={"15px"}
-                    mt="5px"
-                    padding="10px"
-                    fontSize={"17px"}
-                    border={"1px solid rgb(240,240,240)"}
-                    colorScheme="green"
-                    key={index}
-                    id={`category${index}`}
-                    isChecked={category === brand}
-                    onChange={() => handleBrand(category)}
-                  >
-                    {category}
-                  </Checkbox>
-                ))}
+                {Category === "Saree" ? (
+                  <div>
+                    {[
+                      "KORAM'S DESIGN",
+
+                      "BESUCHER",
+
+                      "Anjaneya Sarees",
+                      "Silverfly",
+
+                      "SATRANI",
+                      "Marziyaa",
+                      "ZIKARAA",
+
+                      "PRATHAM BLUE",
+                      "Suta",
+
+                      "Styleelite",
+
+                      "Saree mall",
+
+                      "TIKHI IMLI",
+
+                      "FashDeal",
+                    ].map((category, index) => (
+                      <Checkbox
+                        borderRadius="15px"
+                        mt="5px"
+                        padding="10px"
+                        fontSize="13px"
+                        border="1px solid rgb(240,240,240)"
+                        colorScheme="green"
+                        key={index}
+                        id={`category${index}`}
+                        isChecked={category === brand}
+                        onChange={() => handleBrand(category)}
+                      >
+                        {category}
+                      </Checkbox>
+                    ))}
+                  </div>
+                ) : null}
+                {Category === "Jeans" ? (
+                  <div>
+                    {[
+                      "SHOWOFF",
+                      "Buda Jeans Co",
+                      "FREEHAND",
+                      "KOTTY",
+
+                      "DNMX",
+                      "ORCHID BLUES",
+                      "Lee Cooper",
+                      "GAP",
+                      "MISS CHASE",
+                      "REA-LIZE",
+
+                      "FUELLE",
+                      "LEVIS",
+
+                      "U.S. Polo Assn.",
+                      "Pepe Jeans",
+
+                      "JDY BY ONLY",
+                    ].map((category, index) => (
+                      <Checkbox
+                        borderRadius="15px"
+                        mt="5px"
+                        padding="10px"
+                        fontSize="13px"
+                        border="1px solid rgb(240,240,240)"
+                        colorScheme="green"
+                        key={index}
+                        id={`category${index}`}
+                        isChecked={category === brand}
+                        onChange={() => handleBrand(category)}
+                      >
+                        {category}
+                      </Checkbox>
+                    ))}
+                  </div>
+                ) : null}
+                {Category === "Top" ? (
+                  <div>
+                    {[
+                      "Clafoutis",
+
+                      "FIG",
+                      "Wedani",
+                      "DJ & C",
+
+                      "DNMX",
+                      "Teamspirit",
+
+                      "Draax Fashions",
+                      "EYEBOGLER",
+                      "FUELLE",
+                      "TRENDS TOWER",
+                      "DREAM BEAUTY FASHION",
+                    ].map((category, index) => (
+                      <Checkbox
+                        borderRadius="15px"
+                        mt="5px"
+                        padding="10px"
+                        fontSize="13px"
+                        border="1px solid rgb(240,240,240)"
+                        colorScheme="green"
+                        key={index}
+                        id={`category${index}`}
+                        isChecked={category === brand}
+                        onChange={() => handleBrand(category)}
+                      >
+                        {category}
+                      </Checkbox>
+                    ))}
+                  </div>
+                ) : null}
+                {Category === "Dress" ? (
+                  <div>
+                    {[
+                      "Janasya",
+                      "MASAKALI.CO",
+
+                      "MARIE CLAIRE",
+                      "Indibelle",
+                      "AASK",
+                      "COTTINFAB",
+                      "YUFTA",
+                      "Hetvi Creation",
+                      "Tior",
+                    ].map((category, index) => (
+                      <Checkbox
+                        borderRadius="15px"
+                        mt="5px"
+                        padding="10px"
+                        fontSize="13px"
+                        border="1px solid rgb(240,240,240)"
+                        colorScheme="green"
+                        key={index}
+                        id={`category${index}`}
+                        isChecked={category === brand}
+                        onChange={() => handleBrand(category)}
+                      >
+                        {category}
+                      </Checkbox>
+                    ))}
+                  </div>
+                ) : null}
+                {Category === "" ? (
+                  <div>
+                    {[
+                      "View all",
+                      "DJ & C",
+                      "FIG",
+                      "DNMX",
+                      "KORAM'S DESIGN",
+                      "Teamspirit",
+                      "Wedani",
+                    ].map((category, index) => (
+                      <Checkbox
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                        key={index}
+                        id={`category${index}`}
+                        isChecked={category === brand}
+                        onChange={() => handleBrand(category)}
+                      >
+                        {category}
+                      </Checkbox>
+                    ))}
+                  </div>
+                ) : null}
               </Stack>
             </AccordionPanel>
           </AccordionItem>

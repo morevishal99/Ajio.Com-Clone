@@ -14,7 +14,7 @@ export const Card = ({ _id, src, brand, title, category, orginalPrice, discountP
     <Box onClick={handledata} key={_id}>
       <Box className="">
         <Box className="">
-          {/* <Image  src={src} alt={brand} /> */}
+          <Image  src={src} alt={brand} />
         </Box>
         <Box className="card-content-wrap">
           <Box className="card-content">
